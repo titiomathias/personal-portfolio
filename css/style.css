@@ -1,0 +1,40 @@
+body {
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    width: 80%;
+}
+
+#head {
+    width: 100%;
+    top: 0;
+}
+
+header {
+    height: 80px;
+}
+
+.title-content{
+    display: flex;
+    align-items: center;
+    width: 80%;
+}
+
+.title {
+    margin-left: 20px;
+}
+
+.align-principal {
+    width: 80%;
+    padding-right: var(--bs-gutter-x, .75rem);
+    padding-left: var(--bs-gutter-x, .75rem);
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: space-between;
+}
