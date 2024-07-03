@@ -8,6 +8,12 @@ main {
     width: 80%;
 }
 
+#principal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 #head {
     width: 100%;
     top: 0;
@@ -37,4 +43,29 @@ header {
     flex-wrap: inherit;
     align-items: center;
     justify-content: space-between;
+}
+
+.section {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 80vh;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.content {
+    padding: 16px;
+    width: 50%;
+}
+
+.image {
+    padding: 16px;
+    width: 50%;
+}
+
+.myimg {
+    border-radius: 20px;
+    border: 4px solid purple;
 }

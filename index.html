@@ -9,18 +9,31 @@
     <body>
         <div id="head">
             <header>
-                <div class="collapse" id="navbarToggleExternalContent">
-                    <div class="bg-light p-4">
-                      <h5 class="text-white h4">Teste de conteúdo</h5>
-                      <span class="text-muted">Seções do meu portfolio em lista.</span>
-                    </div>
+                <div class="dropdown">
+                    <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                        Dropdown link
+                    </a>
+                    
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
                 </div>
                 <nav class="navbar fixed-top navbar-light bg-light">
                     <div class="align-principal">
                         <div class="title-content">
-                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-                                <span class="navbar-toggler-icon"></span>
-                            </button>
+                            <div class="btn-group">
+                                <button ctype="button" class="btn btn-light dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <span class="navbar-toggler-icon"></span>
+                                </button>
+                                <ul class="dropdown-menu">
+                                  <li><a class="dropdown-item" href="#intro">Intro</a></li>
+                                  <li><a class="dropdown-item" href="#aboutme">About me</a></li>
+                                  <li><a class="dropdown-item" href="#skills">Skills</a></li>
+                                  <li><a class="dropdown-item" href="#portfolio">Portfolio</a></li>
+                                </ul>
+                            </div>
                             <a class="navbar-brand" href="#"><h2 class="title">Matheus de Alencar</h2></a>
                         </div>
                         <button type="button" class="btn btn-outline-dark">Resume</button>
@@ -30,7 +43,43 @@
         </div>
         <div id="principal">
             <main>
-
+                <section class="section" id="intro">
+                    <div class="content">
+                        <h1>Software Engineer</h1>
+                        <h1>Full Stack Developer</h1>
+                        <p>Experiência com desenvolvimento front-end utilizando HTML, CSS, JS, Typescript, Bootstrap, JQuery e Angular. Back-end, análise de dados utilizando SQL e Python. RedTeam com ênfase em Pentest em Aplicações Web.</p>
+                    </div>
+                    <div class="image">
+                        <img src="./img/matheus.jpg" class="myimg" width="30%">
+                    </div>
+                </section>
+                <section class="section" id="aboutme">
+                    <div class="content">
+                        <h1>About me</h1>
+                        <p>Experiência com desenvolvimento front-end utilizando HTML, CSS, JS, Typescript, Bootstrap, JQuery e Angular. Back-end, análise de dados utilizando SQL e Python. RedTeam com ênfase em Pentest em Aplicações Web.</p>
+                    </div>
+                    <div class="image">
+                        <img src="./img/matheus.jpg" class="myimg" width="30%">
+                    </div>
+                </section>
+                <section class="section" id="skills">
+                    <div class="content">
+                        <h1>Skills</h1>
+                        <p>Experiência com desenvolvimento front-end utilizando HTML, CSS, JS, Typescript, Bootstrap, JQuery e Angular. Back-end, análise de dados utilizando SQL e Python. RedTeam com ênfase em Pentest em Aplicações Web.</p>
+                    </div>
+                    <div class="image">
+                        <img src="./img/matheus.jpg" class="myimg" width="30%">
+                    </div>
+                </section>
+                <section class="section" id="portfolio">
+                    <div class="content">
+                        <h1>Portfolio</h1>
+                        <p>Experiência com desenvolvimento front-end utilizando HTML, CSS, JS, Typescript, Bootstrap, JQuery e Angular. Back-end, análise de dados utilizando SQL e Python. RedTeam com ênfase em Pentest em Aplicações Web.</p>
+                    </div>
+                    <div class="image">
+                        <img src="./img/matheus.jpg" class="myimg" width="30%">
+                    </div>
+                </section>
             </main>
         </div>
         <div id="footer">
